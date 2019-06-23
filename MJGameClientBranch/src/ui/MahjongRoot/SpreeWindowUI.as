@@ -1,0 +1,24 @@
+/**Created by the LayaAirIDE,do not modify.*/
+package ui.MahjongRoot {
+	import laya.ui.*;
+	import laya.display.*; 
+
+	public class SpreeWindowUI extends View {
+		public var btn_close:Button;
+		public var m_btnReceive:Button;
+		public var m_btnCopyURL:Button;
+		public var m_btnCopyCode:Button;
+		public var m_btnHairpin:Button;
+		public var m_btnReward:Button;
+		public var m_Success:Image;
+		public var m_lableSuccess:Label;
+
+		public static var uiView:Object =/*[STATIC SAFE]*/{"type":"View","props":{"width":1136,"name":"content","height":640},"child":[{"type":"Image","props":{"y":0,"x":0,"width":1136,"skin":"common/img_blankBg.png","sizeGrid":"2,2,2,2","height":640}},{"type":"Box","props":{"y":49,"x":67,"name":"content"},"child":[{"type":"Image","props":{"y":64,"x":2,"skin":"spree/img_Bg.png"}},{"type":"Button","props":{"y":34,"x":929,"var":"btn_close","skin":"common/btn_close.png"}},{"type":"Image","props":{"x":184,"skin":"spree/img_titleBg.png"}},{"type":"Image","props":{"y":5,"x":197,"skin":"spree/img_collarCard.png"}},{"type":"Image","props":{"y":93,"x":25,"skin":"spree/img_floor.png"},"child":[{"type":"Image","props":{"y":18,"x":24,"skin":"spree/img_txt_0.png"}},{"type":"Image","props":{"y":142,"x":66,"skin":"spree/img_card.png"}},{"type":"Label","props":{"y":78,"x":28,"wordWrap":true,"width":245,"text":"  新玩家填写好友发送 的邀请码后，即可获取 奖励哦。","height":30,"fontSize":23,"font":"SimHei","color":"#3d1e05"}},{"type":"Button","props":{"y":304,"x":79,"width":142,"var":"m_btnReceive","skin":"common/btn_Bg.png","height":62},"child":[{"type":"Label","props":{"y":0,"x":0,"width":142,"valign":"middle","text":"领取","strokeColor":"#3b7204","stroke":2,"height":60,"fontSize":24,"font":"SimHei","color":"#ffffff","align":"center"}}]}]},{"type":"Image","props":{"y":93,"x":340,"skin":"spree/img_floor.png"},"child":[{"type":"Image","props":{"y":18,"x":60,"skin":"spree/img_txt_1.png"}},{"type":"Label","props":{"y":78,"x":28,"wordWrap":true,"width":245,"text":"  发送邀请码给好友或 朋友圈，好友在游戏内 输入邀请码即可开启礼 包。","height":30,"fontSize":23,"font":"SimHei","color":"#3d1e05"}},{"type":"Image","props":{"y":202,"x":13,"skin":"spree/img_text.png"},"child":[{"type":"Label","props":{"y":0,"x":0,"wordWrap":true,"width":218,"valign":"middle","text":"6.5066.com/p/114835","height":32,"fontSize":21,"font":"SimHei","color":"#176483","align":"center"}}]},{"type":"Button","props":{"y":196,"x":227,"var":"m_btnCopyURL","skin":"spree/btn_copy.png"}},{"type":"Image","props":{"y":252,"x":13,"skin":"spree/img_text.png"},"child":[{"type":"Label","props":{"y":0,"x":5,"wordWrap":true,"width":109,"valign":"middle","text":"邀请码：","height":32,"fontSize":21,"font":"SimHei","color":"#176483","align":"right"}},{"type":"Label","props":{"y":0,"x":108,"wordWrap":true,"width":109,"valign":"middle","text":"114835","height":32,"fontSize":21,"font":"SimHei","color":"#176483","align":"left"}}]},{"type":"Button","props":{"y":246,"x":227,"var":"m_btnCopyCode","skin":"spree/btn_copy.png"}},{"type":"Button","props":{"y":304,"x":79,"width":142,"var":"m_btnHairpin","skin":"common/btn_Bg.png","height":62},"child":[{"type":"Label","props":{"y":0,"x":0,"width":142,"valign":"middle","text":"免费发卡","strokeColor":"#3b7204","stroke":2,"height":60,"fontSize":24,"font":"SimHei","color":"#ffffff","align":"center"}}]}]},{"type":"Image","props":{"y":93,"x":650,"skin":"spree/img_floor.png"},"child":[{"type":"Image","props":{"y":18,"x":61,"skin":"spree/img_txt_2.png"}},{"type":"Label","props":{"y":70,"x":28,"wordWrap":true,"width":245,"valign":"middle","text":"填写您邀请码的好友","height":30,"fontSize":23,"font":"SimHei","color":"#3d1e05","align":"center"}},{"type":"Label","props":{"y":108,"x":28,"wordWrap":true,"width":245,"text":"1.填写成功后奖励您2张房 卡。\\n2.好友首次充值后，奖励您20%的房卡","fontSize":20,"font":"SimHei","color":"#8d603e"}},{"type":"Button","props":{"y":304,"x":79,"width":142,"var":"m_btnReward","skin":"common/btn_Bg.png","height":62},"child":[{"type":"Label","props":{"y":0,"x":0,"width":142,"valign":"middle","text":"查看奖励","strokeColor":"#3b7204","stroke":2,"height":60,"fontSize":24,"font":"SimHei","color":"#ffffff","align":"center"}}]}]},{"type":"Label","props":{"y":483,"wordWrap":true,"width":975,"text":"关注微信公众号添胡龙江棋牌每日签到送房卡     ","fontSize":25,"font":"SimHei","color":"#885f25","align":"center"}},{"type":"Image","props":{"y":433,"x":876,"skin":"spree/img_gift.png"}},{"type":"Image","props":{"y":8,"x":289,"skin":"spree/img_title.png"}},{"type":"Image","props":{"y":260,"x":306,"visible":false,"var":"m_Success","skin":"common/img_successBg.png"},"child":[{"type":"Label","props":{"y":16,"x":73,"wordWrap":true,"width":245,"var":"m_lableSuccess","text":"领取成功","fontSize":24,"font":"SimHei","color":"#f1f1f1","align":"center"}}]}]}]};
+		override protected function createChildren():void {
+			super.createChildren();
+			createView(uiView);
+
+		}
+
+	}
+}

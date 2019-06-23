@@ -1,0 +1,18 @@
+﻿1.编译时需要进行动态适配的把Constants中isAdaptPhone设为true
+2.当isAdaptPhone为false时将进行SCALE_SHOWALL或者SCALE_EXACTFIT适配方式（自己定）
+3.适配原理：
+1)以高为比例对stage进行缩放，stage能占满屏幕同时UI为等比缩放，这样canvas会比微信浏览器的可操作区域大所以要更正UI位置
+2)因为UI缩放模式为以屏幕高为比例，所以UI会显得比较大，动态修改UI时比最小stage(宽/高)/设计分辨率(宽/高)，理论上所有UI都需要进行动态缩放。
+3)每个界面的必须有一个box为root，同时背景和box的宽高都应设置为stage的宽高。
+4)所有UI的位置设置应修改为left和top的值，动态修改位置时只需动态修改left即可。
+4.实现：
+1)对屏幕修改时进行事件监听
+Browser.window.addEventListener("resize", function():void {
+	});动态修改内容放到此函数体内。
+2)我在UiManager里实现了最小比例获取函数，获取时使用代码：GameIF.getInstance().uiManager.getScale();
+3)left修改原理为：原ui距left位置与原stage分辨率(即1136*640)应成比例，所以新位置也应与新stage分辨率成比例。故新left = (新stagewidth*原left)/1136
+4)Ui宽高应修改为原设计大小*最小(scale)。
+代码详见GamehallView中reSetGamehallViewUi()与LoginView中reSetLoginViewUi()
+UI设计详见与上述两个VIEW相对应的page页面。
+有问题及时联系。
+	

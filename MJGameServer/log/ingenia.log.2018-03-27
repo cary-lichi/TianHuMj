@@ -1,0 +1,117 @@
+2018-03-27 20:44:42,377 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:53:00,482 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:53:16,109 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:53:32,444 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:53:38,625 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:55:00,855 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:55:04,924 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 21:57:22,755 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 22:01:54,602 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 112
+
+2018-03-27 22:02:06,933 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-03-27 22:04:36,786 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+

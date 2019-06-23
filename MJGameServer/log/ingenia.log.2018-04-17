@@ -1,0 +1,146 @@
+2018-04-23 15:59:13,634 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+  File "D:/laya/MJGameServer\logic\room.py", line 225, in onJoin
+    gamer.location = user.location
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 724, in setter
+    '"%s" in protocol message object.' % proto_field_name)
+AttributeError: Assignment not allowed to composite field "location" in protocol message object.
+
+2018-04-23 15:59:43,056 - ingenia - INFO - 玩家2在2018-04-23 15:59:43出错: TypeError: Cannot read property 'OnConnectNotify' of null
+    at RoomVip.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3250:33)
+    at VIPRoomLogic.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23165:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23069:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22926:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22917:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+2018-04-23 15:59:43,144 - ingenia - INFO - 玩家3在2018-04-23 15:59:43出错: TypeError: Cannot read property 'bIsLocation' of null
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23897:47)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23852:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29931:11)
+2018-04-23 15:59:58,813 - ingenia - INFO - 玩家3在2018-04-23 15:59:58出错: TypeError: Cannot read property 'bIsLocation' of null
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23897:47)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23852:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29931:11)
+2018-04-23 16:01:22,493 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+  File "D:/laya/MJGameServer\logic\room.py", line 225, in onJoin
+    gamer.location = user.location
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 724, in setter
+    '"%s" in protocol message object.' % proto_field_name)
+AttributeError: Assignment not allowed to composite field "location" in protocol message object.
+
+2018-04-23 16:01:25,594 - ingenia - INFO - 玩家2在2018-04-23 16:01:25出错: TypeError: Cannot read property 'OnDisConnectNotify' of null
+    at RoomVip.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3255:33)
+    at VIPRoomLogic.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23170:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23073:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22926:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22917:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+2018-04-23 16:01:40,464 - ingenia - INFO - 玩家3在2018-04-23 16:01:40出错: TypeError: Cannot read property 'bIsLocation' of null
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23897:47)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23852:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29931:11)
+2018-04-23 16:01:41,779 - ingenia - INFO - 玩家3在2018-04-23 16:01:41出错: TypeError: Cannot read property 'bIsLocation' of null
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23897:47)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23852:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29931:11)
+2018-04-23 16:01:59,509 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+  File "D:/laya/MJGameServer\logic\room.py", line 225, in onJoin
+    gamer.location = user.location
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 724, in setter
+    '"%s" in protocol message object.' % proto_field_name)
+AttributeError: Assignment not allowed to composite field "location" in protocol message object.
+
+2018-04-23 16:05:19,266 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+  File "D:/laya/MJGameServer\logic\room.py", line 271, in onJoin
+    self.sendMessage(id,msg)
+  File "D:/laya/MJGameServer\logic\room.py", line 110, in sendMessage
+    data = msg.SerializeToString()
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 1041, in SerializeToString
+    self.DESCRIPTOR.full_name, ','.join(self.FindInitializationErrors())))
+EncodeError: Message Msg is missing required fields: response.joinRoomResponse.joinRoom.Gamers[0].location.bIsLocation,response.joinRoomResponse.joinRoom.Gamers[1].location.bIsLocation
+
+2018-04-23 16:05:23,808 - ingenia - INFO - 玩家2在2018-04-23 16:05:23出错: TypeError: Cannot read property 'OnDisConnectNotify' of null
+    at RoomVip.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3255:33)
+    at VIPRoomLogic.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23170:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23073:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22926:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22917:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+2018-04-23 16:10:49,431 - ingenia - INFO - 玩家2在2018-04-23 16:10:49出错: TypeError: Cannot read property 'bIsLocation' of null
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23897:47)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23852:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30004:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29931:11)
+2018-04-23 16:36:45,321 - ingenia - INFO - 玩家2在2018-04-23 16:36:45出错: TypeError: Cannot read property 'Destroy' of null
+    at RegularLogic.__proto.Destroy (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:20548:22)
+    at RegularLogic.__proto.OnLogicQuit (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:440:8)
+    at LogicManager.__proto.DectiveLogic (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1360:9)
+    at Function.GameIF.DectiveLogic (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1189:44)
+    at GamehallLogic.__proto.Destroy (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:19197:11)
+    at GamehallLogic.__proto.OnLogicQuit (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:440:8)
+    at LogicManager.__proto.DectiveLogic (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1360:9)
+    at Function.GameIF.DectiveLogic (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1189:44)
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23941:12)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23867:9)
+2018-04-23 16:37:35,673 - ingenia - INFO - 玩家2在2018-04-23 16:37:35出错: TypeError: Cannot read property 'bIsLocation' of null
+    at VIPRoomLogic.__proto.OnJoinRoomNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23136:39)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22970:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22941:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22932:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3851:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30019:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29946:11)

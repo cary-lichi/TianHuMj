@@ -1,0 +1,202 @@
+2018-05-06 12:57:18,418 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\logic\room.py", line 644, in onPutPai
+    self.checkPut(gamerID,type,value)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 79, in checkPut
+    self.sendCheckPutMsg()
+  File "D:/laya/MJGameServer\logic\room.py", line 690, in sendCheckPutMsg
+    self.getPai(nextGamer.id)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 47, in getPai
+    Room.getPai(self,gamerID)
+  File "D:/laya/MJGameServer\logic\room.py", line 516, in getPai
+    pai = self.genPaiNet(gamer)
+  File "D:/laya/MJGameServer\logic\room.py", line 1263, in genPaiNet
+    self.sendAllMessage(msg)
+  File "D:/laya/MJGameServer\logic\room.py", line 131, in sendAllMessage
+    v.conn.write_message(data,True)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 256, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 803, in write_message
+    raise WebSocketClosedError()
+WebSocketClosedError
+
+2018-05-06 13:02:09,365 - ingenia - INFO - 玩家2在2018-05-06 13:02:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.ListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23059:41)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23054:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23041:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3947:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30193:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30120:11)
+2018-05-06 13:05:46,905 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\logic\room.py", line 644, in onPutPai
+    self.checkPut(gamerID,type,value)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 79, in checkPut
+    self.sendCheckPutMsg()
+  File "D:/laya/MJGameServer\logic\room.py", line 690, in sendCheckPutMsg
+    self.getPai(nextGamer.id)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 47, in getPai
+    Room.getPai(self,gamerID)
+  File "D:/laya/MJGameServer\logic\room.py", line 516, in getPai
+    pai = self.genPaiNet(gamer)
+  File "D:/laya/MJGameServer\logic\room.py", line 1263, in genPaiNet
+    self.sendAllMessage(msg)
+  File "D:/laya/MJGameServer\logic\room.py", line 131, in sendAllMessage
+    v.conn.write_message(data,True)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 256, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 803, in write_message
+    raise WebSocketClosedError()
+WebSocketClosedError
+
+2018-05-06 13:13:19,763 - ingenia - INFO - 玩家3在2018-05-06 13:13:19出错: TypeError: Cannot set property 'visible' of null
+    at RoomHappy.__proto.ShowNetWeak (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3017:41)
+    at RoomHappy.__proto.ShowMyGPS (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3032:8)
+    at VIPHallLogic.__proto.OnCreateRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:21926:9)
+    at VIPHallLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:21892:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:13:19,773 - ingenia - INFO - 玩家3在2018-05-06 13:13:19出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.ListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23061:41)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23056:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23043:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:13:19,778 - ingenia - INFO - 玩家3在2018-05-06 13:13:19出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.StopListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23066:37)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23045:10)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:13:19,812 - ingenia - INFO - 玩家3在2018-05-06 13:13:19出错: TypeError: Cannot read property 'OnReadygamenotify' of null
+    at VIPRoomLogic.__proto.OnReadygamenotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23326:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23205:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23055:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23043:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,375 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot set property 'visible' of null
+    at RoomHappy.__proto.ShowNetWeak (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3017:41)
+    at RoomHappy.__proto.ShowMyGPS (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3032:8)
+    at VIPHallLogic.__proto.OnCreateRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:21926:9)
+    at VIPHallLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:21892:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,381 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.ListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23061:41)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23056:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23043:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,384 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.StopListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23066:37)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23045:10)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,387 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'OnReadygamenotify' of null
+    at VIPRoomLogic.__proto.OnReadygamenotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23326:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23205:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23055:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23043:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,392 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.StopListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23066:37)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23045:10)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,410 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.StopListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23066:37)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23045:10)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:14:09,559 - ingenia - INFO - 玩家3在2018-05-06 13:14:09出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.StopListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23066:37)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23045:10)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:15:19,165 - ingenia - INFO - 玩家3在2018-05-06 13:15:19出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.ListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23061:41)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23056:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23043:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3949:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30195:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30122:11)
+2018-05-06 13:18:04,384 - ingenia - INFO - 玩家2在2018-05-06 13:18:04出错: TypeError: Cannot read property 'ShowNetWeak' of null
+    at VIPRoomLogic.__proto.ListenNetwork (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23060:41)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23055:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23042:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1379:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3948:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:882:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:654:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30194:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:30121:11)
+2018-05-06 13:20:27,910 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\logic\room.py", line 644, in onPutPai
+    self.checkPut(gamerID,type,value)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 79, in checkPut
+    self.sendCheckPutMsg()
+  File "D:/laya/MJGameServer\logic\room.py", line 690, in sendCheckPutMsg
+    self.getPai(nextGamer.id)
+  File "D:/laya/MJGameServer\logic\dongbei_room.py", line 47, in getPai
+    Room.getPai(self,gamerID)
+  File "D:/laya/MJGameServer\logic\room.py", line 516, in getPai
+    pai = self.genPaiNet(gamer)
+  File "D:/laya/MJGameServer\logic\room.py", line 1263, in genPaiNet
+    self.sendAllMessage(msg)
+  File "D:/laya/MJGameServer\logic\room.py", line 131, in sendAllMessage
+    v.conn.write_message(data,True)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 256, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "D:\pycharm\python\lib\site-packages\tornado\websocket.py", line 803, in write_message
+    raise WebSocketClosedError()
+WebSocketClosedError
+

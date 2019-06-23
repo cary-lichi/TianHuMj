@@ -1,0 +1,153 @@
+2018-04-03 17:33:27,900 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:33:56,990 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:33:57,773 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:34:39,783 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:34:42,039 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:34:42,535 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:35:08,730 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:35:09,569 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:35:11,101 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:35:11,497 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:36:33,789 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:38:10,029 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:39:05,859 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-03 17:39:44,517 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 105, in on_message
+    self.on_create_room(msgRequest.request.createRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 187, in on_create_room
+    newRoom.initRoom(message, GameHandler.waiters[uID], self)
+KeyError: 166
+
+2018-04-06 19:17:20,148 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-04-06 19:23:02,657 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 323, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1213, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+
+2018-04-06 19:24:05,969 - ingenia - INFO - 玩家15在2018-04-06 19:24:05出错: TypeError: Cannot read property 'OnDisConnectNotify' of null
+    at RoomVip.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3202:33)
+    at VIPRoomLogic.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23068:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22975:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22828:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22819:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1357:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3766:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29883:8)
+2018-04-06 19:24:05,977 - ingenia - INFO - 玩家2在2018-04-06 19:24:05出错: TypeError: Cannot read property 'OnDisConnectNotify' of null
+    at RoomVip.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3202:33)
+    at VIPRoomLogic.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23068:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22975:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22828:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22819:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1357:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3766:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29883:8)
+2018-04-06 19:24:05,987 - ingenia - INFO - 玩家112在2018-04-06 19:24:05出错: TypeError: Cannot read property 'OnDisConnectNotify' of null
+    at RoomVip.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3202:33)
+    at VIPRoomLogic.__proto.OnDisConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23068:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22975:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22828:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22819:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1357:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3766:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29883:8)

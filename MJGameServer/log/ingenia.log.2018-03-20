@@ -1,0 +1,327 @@
+2018-03-20 19:10:47,005 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 129, in on_message
+    self.on_ready_game(msgRequest.request.readyGameRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 337, in on_ready_game
+    room.onGameReady(uid)
+  File "D:/laya/MJGameServer\logic\room.py", line 993, in onGameReady
+    self.gameStart()
+  File "D:/laya/MJGameServer\logic\room.py", line 1031, in gameStart
+    bossG.boss = True
+AttributeError: 'NoneType' object has no attribute 'boss'
+
+2018-03-20 21:27:42,115 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 3
+
+2018-03-20 21:28:34,677 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 3
+
+2018-03-20 21:36:41,048 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 268, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 454, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 14:16:38,151 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 114
+
+2018-03-22 14:17:52,299 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 268, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 454, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 14:17:52,542 - ingenia - INFO - 玩家112在2018-03-22 14:17:52出错: TypeError: Cannot read property 'input' of null
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3708:18)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 14:17:52,569 - ingenia - INFO - 玩家15在2018-03-22 14:17:52出错: TypeError: Cannot read property 'input' of null
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3708:18)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 14:17:52,588 - ingenia - INFO - 玩家15在2018-03-22 14:17:52出错: TypeError: Cannot read property 'input' of null
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3708:18)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 14:18:36,986 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 328, in onLeave
+    self.beExit(id)
+  File "D:/laya/MJGameServer\logic\room.py", line 1304, in beExit
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 14:18:43,428 - ingenia - INFO - 玩家112在2018-03-22 14:18:43出错: TypeError: Cannot read property 'OnConnectNotify' of null
+    at RoomVip.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3163:33)
+    at VIPRoomLogic.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22968:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22879:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22736:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22727:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1333:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3709:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+2018-03-22 14:20:38,180 - ingenia - INFO - 玩家15在2018-03-22 14:20:38出错: TypeError: Cannot read property 'OnConnectNotify' of null
+    at RoomVip.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3163:33)
+    at VIPRoomLogic.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22968:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22879:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22736:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22727:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1333:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3709:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+2018-03-22 14:27:23,019 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 268, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 454, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 14:44:00,075 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 114
+
+2018-03-22 14:45:52,910 - ingenia - INFO - 玩家15在2018-03-22 14:45:52出错: TypeError: Cannot read property 'm_input_1' of null
+    at InputRoomIDLogic.__proto.InitInput (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23519:31)
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23739:9)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23649:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1333:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3709:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 14:48:03,102 - ingenia - INFO - 玩家15在2018-03-22 14:48:03出错: TypeError: Cannot read property 'm_input_1' of null
+    at InputRoomIDLogic.__proto.InitInput (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23519:31)
+    at InputRoomIDLogic.__proto.OnJoinRoomResponse (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23739:9)
+    at InputRoomIDLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:23649:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1333:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3709:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 14:53:56,298 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 320, in onLeave
+    gamer.conn = None
+AttributeError: 'NoneType' object has no attribute 'conn'
+
+2018-03-22 14:54:09,822 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 3
+
+2018-03-22 14:57:55,326 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 320, in onLeave
+    gamer.conn = None
+AttributeError: 'NoneType' object has no attribute 'conn'
+
+2018-03-22 15:00:34,500 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 329, in onLeave
+    self.beExit(id)
+  File "D:/laya/MJGameServer\logic\room.py", line 1306, in beExit
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:02:30,052 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 269, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 456, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:02:30,434 - ingenia - INFO - 玩家112在2018-03-22 15:02:30出错: TypeError: Cannot read property 'input' of null
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3708:18)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 15:07:23,982 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 269, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 456, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:07:24,219 - ingenia - INFO - 玩家112在2018-03-22 15:07:24出错: TypeError: Cannot read property 'input' of null
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3708:18)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+    at WebSocket._socket.onmessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29687:11)
+2018-03-22 15:09:38,256 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 269, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 456, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:10:02,512 - ingenia - INFO - 玩家3在2018-03-22 15:10:02出错: TypeError: Cannot read property 'OnConnectNotify' of null
+    at RoomVip.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3163:33)
+    at VIPRoomLogic.__proto.OnConnectNotify (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22968:15)
+    at VIPRoomLogic.__proto.HandelMsgInner (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22879:9)
+    at VIPRoomLogic.__proto.HandleMsgList (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22736:8)
+    at VIPRoomLogic.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:22727:9)
+    at LogicManager.__proto.OnReceiveMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:1333:6)
+    at NetworkManager.__proto.onSocketMessageReceived (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:3709:38)
+    at EventHandler.__proto.runWith (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:873:59)
+    at Socket.__proto.event (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:645:28)
+    at Socket.__proto._onMessage (file:///D:/laya/MJGameClientBranch/bin/h5/ChessMahjong.max.js:29760:8)
+2018-03-22 15:10:12,703 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 269, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 456, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:14:01,845 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 111, in on_message
+    self.on_diss_room(msgRequest.request.dissRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 269, in on_diss_room
+    room.onDissRoom(uid)#解散房间
+  File "D:/laya/MJGameServer\logic\room.py", line 456, in onDissRoom
+    self.onDestory()
+  File "D:/laya/MJGameServer\logic\room.py", line 169, in onDestory
+    self.m_parent.destory_room(self.m_id)
+AttributeError: 'DeleCreateRoomHandler' object has no attribute 'destory_room'
+
+2018-03-22 15:56:44,165 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 3
+
+2018-03-22 15:57:10,088 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 253, in on_join_room
+    room.onJoin(uid,GameHandler.waiters[uid])
+KeyError: 3
+
+2018-03-22 15:57:11,427 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 249, in on_join_room
+    conn = GameHandler.waiters[uid]
+KeyError: 3
+
+2018-03-22 15:57:12,691 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 249, in on_join_room
+    conn = GameHandler.waiters[uid]
+KeyError: 3
+
+2018-03-22 15:57:17,230 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 107, in on_message
+    self.on_join_room(msgRequest.request.joinRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 249, in on_join_room
+    conn = GameHandler.waiters[uid]
+KeyError: 3
+
+2018-03-22 16:49:07,595 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 322, in onLeave
+    self.getNewOwner()
+AttributeError: HaErBin_Room instance has no attribute 'getNewOwner'
+
+2018-03-22 16:57:16,517 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 322, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1212, in setNewOwner
+    setNewOwner()
+NameError: global name 'setNewOwner' is not defined
+
+2018-03-22 17:19:27,513 - ingenia - INFO - Traceback (most recent call last):
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 109, in on_message
+    self.on_leave_room(msgRequest.request.leaveRoomRequest)
+  File "D:/laya/MJGameServer\handlers\gameHandler.py", line 261, in on_leave_room
+    room.onLeave(uid)#离开房间
+  File "D:/laya/MJGameServer\logic\room.py", line 322, in onLeave
+    self.setNewOwner()
+  File "D:/laya/MJGameServer\logic\room.py", line 1210, in setNewOwner
+    self.m_owner = self.m_ownerCache.pop(0)
+IndexError: pop from empty list
+

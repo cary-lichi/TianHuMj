@@ -1,0 +1,1043 @@
+2018-05-08 18:47:51,296 - tornado.access - INFO - 200 POST /login (127.0.0.1) 25.00ms
+2018-05-08 18:47:52,516 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:48:06,467 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:48:55,119 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:49:05,138 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:49:15,163 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:49:25,171 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:49:35,181 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:49:45,197 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:49:55,221 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:50:05,221 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:50:15,243 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:50:25,257 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:50:35,273 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:50:45,292 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:50:55,302 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:51:05,328 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 10.00ms
+2018-05-08 18:51:15,348 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:51:25,351 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:51:35,382 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:51:45,424 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:51:55,421 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:52:05,447 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:52:15,456 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:52:25,490 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:52:35,505 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:52:45,517 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:52:55,539 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:53:05,561 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:53:15,582 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:53:25,596 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 18:53:35,607 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:53:45,993 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:53:55,286 - tornado.access - INFO - 200 POST /login (127.0.0.1) 22.00ms
+2018-05-08 18:54:02,940 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:54:31,948 - tornado.application - ERROR - Uncaught exception POST /buy (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/buy', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\buyHandler.py", line 19, in post
+    msgReq.ParseFromString(self.request.body)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\message.py", line 185, in ParseFromString
+    self.MergeFromString(serialized)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 1083, in MergeFromString
+    if self._InternalParse(serialized, 0, length) != length:
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 1109, in InternalParse
+    new_pos = local_SkipField(buffer, new_pos, end, tag_bytes)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\decoder.py", line 850, in SkipField
+    return WIRETYPE_TO_SKIPPER[wire_type](buffer, pos, end)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\decoder.py", line 791, in _SkipLengthDelimited
+    raise _DecodeError('Truncated message.')
+DecodeError: Truncated message.
+2018-05-08 18:54:31,966 - tornado.access - ERROR - 500 POST /buy (127.0.0.1) 18.00ms
+2018-05-08 18:54:31,969 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:54:41,969 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:55:19,368 - tornado.application - ERROR - Uncaught exception POST /buy (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/buy', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\buyHandler.py", line 19, in post
+    msgReq.ParseFromString(self.request.body)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\message.py", line 185, in ParseFromString
+    self.MergeFromString(serialized)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 1083, in MergeFromString
+    if self._InternalParse(serialized, 0, length) != length:
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\python_message.py", line 1109, in InternalParse
+    new_pos = local_SkipField(buffer, new_pos, end, tag_bytes)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\decoder.py", line 850, in SkipField
+    return WIRETYPE_TO_SKIPPER[wire_type](buffer, pos, end)
+  File "D:\pycharm\python\lib\site-packages\google\protobuf\internal\decoder.py", line 791, in _SkipLengthDelimited
+    raise _DecodeError('Truncated message.')
+DecodeError: Truncated message.
+2018-05-08 18:55:19,369 - tornado.access - ERROR - 500 POST /buy (127.0.0.1) 5.00ms
+2018-05-08 18:55:19,375 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:55:41,499 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 18:55:51,513 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:56:01,529 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:56:11,555 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:56:21,576 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:56:31,586 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:56:41,594 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:56:51,621 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:57:01,625 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:57:11,635 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:57:39,532 - tornado.access - INFO - 200 POST /login (127.0.0.1) 25.00ms
+2018-05-08 18:58:53,786 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 18:58:53,789 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 62167.00ms
+2018-05-08 18:58:53,798 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 18:58:53,802 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:58:53,805 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:58:53,809 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:58:53,812 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:58:53,818 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 18:58:53,823 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 18:59:01,967 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:59:11,986 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 18:59:22,005 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:01:18,479 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:01:18,480 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 4580.00ms
+2018-05-08 19:01:18,503 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 11.00ms
+2018-05-08 19:01:23,911 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:01:33,921 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:01:43,944 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:01:53,973 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:02:03,971 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:02:13,990 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:02:24,003 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:02:34,023 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:02:44,039 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:02:54,059 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:03:04,062 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:03:14,081 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:03:24,098 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:03:37,801 - tornado.access - INFO - 200 POST /login (127.0.0.1) 24.00ms
+2018-05-08 19:04:15,207 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:04:15,209 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 35567.00ms
+2018-05-08 19:04:15,216 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:04:15,219 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:04:15,223 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:04:15,227 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:04:58,566 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:04:58,569 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 37992.00ms
+2018-05-08 19:04:58,572 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:04:58,575 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:04:58,581 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:04:58,585 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:05:04,585 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:05:20,505 - tornado.access - INFO - 200 POST /login (127.0.0.1) 16.00ms
+2018-05-08 19:05:46,398 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:05:46,400 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 23960.00ms
+2018-05-08 19:05:46,405 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:05:46,410 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:05:47,575 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:06:24,690 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:06:24,691 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 2029.00ms
+2018-05-08 19:06:24,694 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:06:32,680 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:06:42,691 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:06:52,723 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:07:02,739 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:07:12,750 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:07:22,772 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:07:32,772 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:07:42,796 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:07:52,801 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:08:02,845 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 19:08:12,839 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:08:22,846 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:08:32,871 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:08:42,878 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:08:52,900 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:09:02,923 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:09:12,950 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:09:22,964 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:09:32,973 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:09:42,996 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:09:53,013 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:10:03,026 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:10:13,042 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:10:23,072 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:10:33,086 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:10:44,891 - tornado.access - INFO - 200 POST /login (127.0.0.1) 24.00ms
+2018-05-08 19:11:34,558 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:11:34,559 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 18005.00ms
+2018-05-08 19:11:34,563 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:11:34,568 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:11:36,614 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:11:46,628 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:12:00,240 - tornado.access - INFO - 200 POST /login (127.0.0.1) 12.00ms
+2018-05-08 19:12:35,092 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:12:35,095 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 32380.00ms
+2018-05-08 19:12:35,098 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:12:35,101 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:12:35,105 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:12:37,546 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:12:47,552 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:12:57,576 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:13:07,592 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:13:17,605 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:13:27,622 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:13:37,625 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:15:00,015 - tornado.access - INFO - 200 POST /login (127.0.0.1) 37.00ms
+2018-05-08 19:30:07,466 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:30:07,470 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 906074.00ms
+2018-05-08 19:30:07,480 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:07,490 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:07,506 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 12.00ms
+2018-05-08 19:30:07,510 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:07,520 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:07,526 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:07,535 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:07,539 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:07,548 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:07,552 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:07,556 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:07,568 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:07,571 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:30:07,575 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:07,585 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:07,588 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:07,601 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 19:30:07,607 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:07,617 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:07,628 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 10.00ms
+2018-05-08 19:30:09,869 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:30:09,871 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 2240.00ms
+2018-05-08 19:30:09,875 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,880 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,887 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,891 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:09,894 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:09,901 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:09,908 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,914 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,920 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:09,926 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,930 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,941 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:09,944 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:09,956 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:09,960 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:09,969 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:09,980 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:09,993 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:10,000 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:10,006 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,010 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,019 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:10,026 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,038 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 19:30:10,045 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,052 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,061 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,069 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,073 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,078 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,085 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:10,091 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,095 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,104 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 19:30:10,109 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,118 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:10,124 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,128 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,138 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 19:30:10,141 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,145 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,154 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,158 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,161 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,170 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,174 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,178 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,187 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,190 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,194 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,200 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,206 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,210 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,216 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:30:10,223 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,226 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,233 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:30:10,236 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,240 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:30:10,243 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:30:10,249 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,255 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,256 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:30:10,260 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,269 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:30:10,273 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,276 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,282 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:10,288 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:10,292 - tornado.access - INFO - 200 POST /login (127.0.0.1) 3.00ms
+2018-05-08 19:30:12,427 - tornado.access - INFO - 200 POST /login (127.0.0.1) 27.00ms
+2018-05-08 19:30:12,486 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:43,447 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:30:43,448 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 28603.00ms
+2018-05-08 19:30:43,454 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:43,459 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:30:43,464 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:30:52,562 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:31:02,584 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:31:12,589 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:31:22,598 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:31:32,618 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,226 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:43:08,229 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 690150.00ms
+2018-05-08 19:43:08,233 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,236 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,239 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,243 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,246 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,250 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,253 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,256 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,259 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,263 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,267 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,270 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,273 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,279 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,282 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,286 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,289 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,293 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,298 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,301 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,303 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,306 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,312 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,315 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,319 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,323 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,329 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,338 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,346 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:43:08,351 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,355 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,365 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 19:43:08,369 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,374 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,382 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:43:08,388 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,394 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,398 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,404 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,407 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,413 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,417 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,420 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,427 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:43:08,433 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,437 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,444 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,450 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,453 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,459 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,463 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,466 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,470 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,473 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,477 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,480 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:43:08,484 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,487 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,493 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,496 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,500 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,503 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,506 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,512 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:43:08,516 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,519 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,523 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:43:08,528 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:43:08,548 - tornado.access - INFO - 200 POST /login (127.0.0.1) 19.00ms
+2018-05-08 19:43:08,552 - tornado.access - INFO - 200 POST /login (127.0.0.1) 3.00ms
+2018-05-08 19:43:10,743 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,664 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:47:13,664 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 241857.00ms
+2018-05-08 19:47:13,671 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,677 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:47:13,684 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,690 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,696 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,700 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,704 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,711 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:47:13,716 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,719 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,721 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,730 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:47:13,733 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,736 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,743 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:47:13,749 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,753 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,763 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 19:47:13,769 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,776 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 19:47:13,782 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:13,788 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,795 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:13,832 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:21,151 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:31,168 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:47:41,190 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:47:51,217 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:48:01,229 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:48:11,252 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:17,555 - tornado.access - INFO - 200 POST /adminLogin (::1) 300367.00ms
+2018-05-08 19:53:19,315 - tornado.access - INFO - 200 POST /adminLogin (::1) 1757.00ms
+2018-05-08 19:53:19,365 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,372 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,378 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,384 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,391 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,394 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,400 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,404 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,411 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:53:19,417 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,421 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,426 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,434 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,443 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,450 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,454 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:53:19,459 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,467 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,477 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,489 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:53:19,496 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:53:19,502 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,506 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,513 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,517 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,523 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:53:19,528 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,538 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:53:19,542 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:53:19,602 - tornado.access - INFO - 200 POST /adminLoginHeart (::1) 2.00ms
+2018-05-08 19:53:19,729 - tornado.access - INFO - 200 POST /adminGetUser (::1) 3.00ms
+2018-05-08 19:53:25,371 - tornado.access - INFO - 200 POST /login (127.0.0.1) 24.00ms
+2018-05-08 19:54:09,086 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 19:54:09,088 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 40676.00ms
+2018-05-08 19:54:09,095 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:54:09,101 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:54:09,107 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:54:09,111 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 19:54:09,141 - tornado.access - INFO - 200 POST /adminLoginHeart (::1) 2.00ms
+2018-05-08 19:54:09,160 - tornado.access - INFO - 200 POST /adminGetUser (::1) 2.00ms
+2018-05-08 19:54:13,075 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:54:23,088 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:54:33,098 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:54:43,138 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 19:54:53,128 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:55:03,157 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:55:13,170 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:55:23,178 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:55:33,187 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:55:43,217 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:55:53,223 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:56:03,250 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:56:13,278 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:56:23,293 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:56:33,316 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:56:43,341 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:56:53,365 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:57:03,394 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:57:13,404 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:57:23,417 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:57:33,434 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:57:43,461 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:57:53,469 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 19:58:03,479 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:58:13,542 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 23.00ms
+2018-05-08 19:58:23,519 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:58:33,538 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 19:58:43,569 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 19:58:53,575 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:59:03,589 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:59:13,598 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:59:23,609 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:59:33,634 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 19:59:43,654 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 19:59:53,654 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:00:03,680 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:00:16,664 - tornado.access - INFO - 200 POST /login (127.0.0.1) 37.00ms
+2018-05-08 20:00:31,441 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 20:00:31,444 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 13112.00ms
+2018-05-08 20:00:31,453 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:00:33,996 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:00:58,375 - tornado.access - INFO - 200 POST /login (127.0.0.1) 32.00ms
+2018-05-08 20:01:17,148 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 20:01:17,154 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 17219.00ms
+2018-05-08 20:01:17,163 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:01:17,178 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 14.00ms
+2018-05-08 20:05:47,637 - tornado.access - INFO - 200 POST /login (127.0.0.1) 16.00ms
+2018-05-08 20:06:02,104 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 20:06:02,118 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 12436.00ms
+2018-05-08 20:06:02,131 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:06:04,642 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:06:14,642 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:06:24,667 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:06:40,980 - tornado.access - INFO - 200 POST /login (127.0.0.1) 31.00ms
+2018-05-08 20:06:57,594 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 20:06:57,596 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 14522.00ms
+2018-05-08 20:06:57,608 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 20:06:58,115 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:07:08,114 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:07:18,141 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:07:28,154 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:07:38,165 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:07:48,188 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:07:58,213 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:08:08,223 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:08:18,246 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:08:28,256 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:08:38,280 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:08:48,296 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:08:58,303 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:09:08,322 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:09:18,338 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:09:28,345 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:09:38,368 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:09:48,371 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:09:58,390 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:10:08,414 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:10:18,436 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:10:28,440 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:10:38,464 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:10:48,467 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:10:58,492 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:11:08,496 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:11:18,516 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:11:28,535 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:11:38,542 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:11:48,576 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:11:58,572 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:12:08,595 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:12:18,604 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:12:29,246 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:12:44,582 - tornado.application - ERROR - Uncaught exception POST /adminLogin (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/adminLogin', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\admin\adminLoginHandler.py", line 23, in post
+    userName = post_data['userName']
+KeyError: 'userName'
+2018-05-08 20:12:44,589 - tornado.access - ERROR - 500 POST /adminLogin (127.0.0.1) 14840.00ms
+2018-05-08 20:20:52,275 - tornado.access - INFO - 200 POST /login (127.0.0.1) 24.00ms
+2018-05-08 20:20:53,947 - tornado.access - WARNING - 404 POST /testRecharge (127.0.0.1) 4.00ms
+2018-05-08 20:20:58,273 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:21:08,289 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 20:21:16,302 - tornado.access - INFO - 200 POST /login (127.0.0.1) 23.00ms
+2018-05-08 20:21:24,713 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    msgReq = msg_pb2.Msg()
+NameError: global name 'msg_pb2' is not defined
+2018-05-08 20:21:24,719 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 6345.00ms
+2018-05-08 20:21:24,726 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:21:27,105 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    msgReq = msg_pb2.Msg()
+NameError: global name 'msg_pb2' is not defined
+2018-05-08 20:21:27,108 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 4.00ms
+2018-05-08 20:21:33,470 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    msgReq = msg_pb2.Msg()
+NameError: global name 'msg_pb2' is not defined
+2018-05-08 20:21:33,471 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 4.00ms
+2018-05-08 20:21:34,299 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:21:34,592 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    msgReq = msg_pb2.Msg()
+NameError: global name 'msg_pb2' is not defined
+2018-05-08 20:21:34,594 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,240 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    msgReq = msg_pb2.Msg()
+NameError: global name 'msg_pb2' is not defined
+2018-05-08 20:24:20,243 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 159726.00ms
+2018-05-08 20:24:20,250 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,255 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,259 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,265 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,270 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,276 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,279 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:24:20,285 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,289 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:24:20,296 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:26:25,871 - tornado.access - INFO - 200 POST /login (127.0.0.1) 30.00ms
+2018-05-08 20:26:28,276 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 24, in post
+    uid = int(post_data['uid'])
+NameError: global name 'post_data' is not defined
+2018-05-08 20:26:28,280 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 8.00ms
+2018-05-08 20:26:33,410 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:29:45,220 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 24, in post
+    if(post_data["token"]!="FAK^&*#$BHI*&(*#@NFSADF"):
+NameError: global name 'post_data' is not defined
+2018-05-08 20:29:45,223 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 186825.00ms
+2018-05-08 20:29:45,233 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:29:45,247 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 12.00ms
+2018-05-08 20:29:45,253 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:29:45,262 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:29:45,267 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:29:45,278 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 20:29:45,285 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:29:45,289 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:29:45,305 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:29:45,312 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:29:45,321 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:29:45,338 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 10.00ms
+2018-05-08 20:29:45,348 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:29:45,361 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 10.00ms
+2018-05-08 20:29:45,378 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 15.00ms
+2018-05-08 20:29:45,391 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:29:45,403 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:29:45,414 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:29:45,427 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 9.00ms
+2018-05-08 20:29:53,721 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:30:10,936 - tornado.access - INFO - 200 POST /login (127.0.0.1) 26.00ms
+2018-05-08 20:30:16,230 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:16,244 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 3490.00ms
+2018-05-08 20:30:18,121 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:30:18,170 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:18,171 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 7.00ms
+2018-05-08 20:30:19,529 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:19,532 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 5.00ms
+2018-05-08 20:30:21,713 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:21,720 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 9.00ms
+2018-05-08 20:30:22,250 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:22,253 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 4.00ms
+2018-05-08 20:30:23,061 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:23,065 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 8.00ms
+2018-05-08 20:30:41,358 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    post_data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:30:41,369 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 13792.00ms
+2018-05-08 20:30:41,392 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 15.00ms
+2018-05-08 20:30:41,401 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:30:48,167 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:31:01,249 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 23, in post
+    data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:31:01,255 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 4810.00ms
+2018-05-08 20:31:01,309 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 39.00ms
+2018-05-08 20:31:08,194 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:31:18,221 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:31:28,234 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:31:38,246 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:31:48,263 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:32:38,773 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 24, in post
+    data = json.loads(self.request.body)
+  File "D:\pycharm\py\Lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "D:\pycharm\py\Lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\pycharm\py\Lib\json\decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2018-05-08 20:32:38,779 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 41114.00ms
+2018-05-08 20:32:38,789 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:32:38,796 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:32:38,803 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:32:38,832 - tornado.access - INFO - 200 POST /login (127.0.0.1) 25.00ms
+2018-05-08 20:32:42,298 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 20:32:43,520 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 25, in post
+    uid = int(post_data['uid'])
+NameError: global name 'post_data' is not defined
+2018-05-08 20:32:43,525 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 7.00ms
+2018-05-08 20:33:03,700 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 25, in post
+    uid = int(post_data['uid'])
+NameError: global name 'post_data' is not defined
+2018-05-08 20:33:03,703 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 13340.00ms
+2018-05-08 20:33:03,710 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:33:03,721 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:33:12,344 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:33:22,355 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:33:32,381 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 10.00ms
+2018-05-08 20:33:42,408 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:33:52,403 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:34:34,016 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 40, in post
+    user.gold = user.gold + gold
+NameError: global name 'gold' is not defined
+2018-05-08 20:34:34,026 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 33203.00ms
+2018-05-08 20:34:34,033 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:34:34,049 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 13.00ms
+2018-05-08 20:34:34,055 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:34:34,065 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:34:42,487 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:34:52,509 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 8.00ms
+2018-05-08 20:35:02,517 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:35:12,549 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:36:22,993 - tornado.application - ERROR - Uncaught exception POST /testRecharge (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='POST', uri='/testRecharge', version='HTTP/1.1', remote_ip='127.0.0.1')
+Traceback (most recent call last):
+  File "D:\pycharm\python\lib\site-packages\tornado\web.py", line 1541, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:/laya/MJGameServer\handlers\TestRechargeHandler.py", line 51, in post
+    Dal_Admin().addOperate(Aid, operate)
+NameError: global name 'Dal_Admin' is not defined
+2018-05-08 20:36:23,006 - tornado.access - ERROR - 500 POST /testRecharge (127.0.0.1) 68224.00ms
+2018-05-08 20:36:23,012 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:36:23,022 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:36:23,025 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 1.00ms
+2018-05-08 20:36:23,032 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:36:23,039 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:36:23,042 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:36:23,075 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:36:32,901 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:36:42,895 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:36:52,930 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:37:02,927 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:37:12,938 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:37:22,963 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 7.00ms
+2018-05-08 20:37:34,035 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 11.00ms
+2018-05-08 20:39:33,752 - tornado.access - INFO - 200 POST /testRecharge (127.0.0.1) 116888.00ms
+2018-05-08 20:39:33,759 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,766 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,776 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:39:33,782 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:39:33,788 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,792 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,798 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:39:33,801 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:39:33,803 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:39:33,809 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,815 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:39:33,822 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:39:43,217 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 30.00ms
+2018-05-08 20:39:53,752 - tornado.access - INFO - 200 POST /testRecharge (127.0.0.1) 1569.00ms
+2018-05-08 20:39:53,763 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:41:08,937 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:41:18,966 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:41:28,950 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:41:38,979 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:41:48,993 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:41:59,020 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:42:09,016 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:42:19,028 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:42:29,040 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:42:39,069 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:42:49,079 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:42:59,091 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:43:09,119 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:43:19,127 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:43:29,145 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:43:39,151 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:43:49,180 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:43:59,191 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:44:09,230 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 12.00ms
+2018-05-08 20:44:19,288 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:44:29,272 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:44:39,270 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:44:49,292 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 2.00ms
+2018-05-08 20:44:59,707 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:45:16,933 - tornado.access - INFO - 200 POST /login (127.0.0.1) 37.00ms
+2018-05-08 20:45:19,312 - tornado.access - INFO - 200 POST /testRecharge (127.0.0.1) 34.00ms
+2018-05-08 20:45:56,727 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:46:06,727 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:46:16,770 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 6.00ms
+2018-05-08 20:46:26,760 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:46:36,789 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:46:46,819 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:46:56,845 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:47:06,858 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:47:16,875 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:47:26,904 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 3.00ms
+2018-05-08 20:47:36,921 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:47:46,940 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:47:56,953 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:48:06,957 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:48:16,973 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 5.00ms
+2018-05-08 20:48:26,989 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:48:57,279 - tornado.access - INFO - 200 POST /login (127.0.0.1) 30.00ms
+2018-05-08 20:48:57,466 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
+2018-05-08 20:49:00,328 - tornado.access - INFO - 200 POST /testRecharge (127.0.0.1) 36.00ms
+2018-05-08 20:49:15,263 - tornado.access - INFO - 200 POST /loginheart (127.0.0.1) 4.00ms
